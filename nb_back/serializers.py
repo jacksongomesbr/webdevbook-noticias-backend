@@ -1,8 +1,5 @@
 from rest_framework import serializers
 from rest_framework.fields import empty
-from rest_framework_serializer_extensions.serializers import SerializerExtensionsMixin
-from drf_writable_nested import WritableNestedModelSerializer
-
 from .models import *
 from django.contrib.auth.models import User
 import logging
